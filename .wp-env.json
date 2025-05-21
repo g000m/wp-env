@@ -21,7 +21,7 @@
         "afterStart": "wp-env run cli wp db import db/database.sql"
     },
 	"config":{
-		"WP_HOME":"https://cuddly-happiness-pp47jw76rjf9ppv-8800.app.github.dev",
+		"WP_HOME":"https://cuddly-happiness-pp47jw76rjf9ppv-8800.app.github.dev:8800",
 		"WP_SITEURL":"https://cuddly-happiness-pp47jw76rjf9ppv-8800.app.github.dev"
 	}
 }

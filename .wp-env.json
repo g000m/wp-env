@@ -13,7 +13,7 @@
 		".htaccess": ".htaccess"
     },
 	"lifecycleScripts": {
-        "afterStart": "wp-env run cli wp db export db/database.sql"
+        "afterStart": "wp-env run cli wp db import db/database.sql"
     },
 	"config":{}
 }

@@ -1,0 +1,17 @@
+{
+  "name": "wp-env",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"env:start": "wp-env start",
+	"env:stop": "wp-env stop"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wordpress/env": "^10.23.0"
+  }
+}

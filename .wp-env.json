@@ -1,0 +1,19 @@
+{
+    "port": 8800,
+    "testsPort": 8801,
+	"plugins": [
+		"https://downloads.wordpress.org/plugin/query-monitor.3.17.2.zip"
+	],
+	"themes": [
+		"https://downloads.wordpress.org/theme/twentytwentyfive.zip"
+	],
+	"mappings": {
+		"db": "./db",
+        "wp-content": "./wp-content",
+		".htaccess": ".htaccess"
+    },
+	"lifecycleScripts": {
+        "afterStart": "wp-env run cli wp db export db/database.sql"
+    },
+	"config":{}
+}
